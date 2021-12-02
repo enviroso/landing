@@ -32,4 +32,18 @@ body,
   background: radial-gradient(100% 829.98% at 0% 0%, #3183ff 0%, #ff6cdf 100%);
 }
 
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  outline: none;
+  border-radius: 999px;
+}
+
 @import "tailwindcss/utilities";
