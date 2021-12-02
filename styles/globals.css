@@ -28,4 +28,8 @@ body,
   background-size: cover;
 }
 
+.section2__bg {
+  background: linear-gradient(110.78deg, #0a1b33 10%, #217aff 2%);
+}
+
 @import "tailwindcss/utilities";

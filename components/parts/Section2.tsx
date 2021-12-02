@@ -6,7 +6,7 @@ export const Section2 = () => {
     <div className="w-screen min-h-screen">
       <div className="w-screen min-h-screen container mx-auto flex items-center justify-around">
         {/* vector */}
-        <div className="hidden lg:block">
+        <div className="hidden lg:block relative">
           <CleanupMissionsVector className="h-[200rem] w-[200rem]" />
         </div>
 
