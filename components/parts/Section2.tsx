@@ -3,15 +3,15 @@ import { CleanupMissionsVector } from "../vectors/CleanupMissionsVector";
 
 export const Section2 = () => {
   return (
-    <div className="w-screen min-h-screen">
-      <div className="w-screen min-h-screen container mx-auto flex items-center justify-around">
+    <div className="w-screen min-h-screen p-[2rem]">
+      <div className="w-screen min-h-screen container mx-auto flex items-center lg:justify-around">
         {/* vector */}
         <div className="hidden lg:block relative">
           <CleanupMissionsVector className="h-[200rem] w-[200rem]" />
         </div>
 
         {/* content */}
-        <div className="flex flex-col md:w-[30rem]">
+        <div className="flex flex-col w-[90%] md:w-[30rem]">
           <h3 className="text-[1.2rem] font-medium uppercase mb-1 text-blue">
             How It Works
           </h3>

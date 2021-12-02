@@ -7,12 +7,12 @@ import { Logo } from "../ui/Logo";
 export const Section1 = () => {
   return (
     <>
-      <div className="section1__bg w-screen min-h-screen flex flex-col justify-between p-[3.3rem]">
+      <div className="section1__bg w-screen min-h-screen flex flex-col justify-between p-[2rem] md:p-[2.5rem] lg:p-[3.2rem] xl:p-[3.7rem] 2xl:p-[4.2rem]">
         <Nav />
 
         <div className="w-full lg:w-[50rem]">
           {/* Heading */}
-          <h1 className="text-white text-[1rem] md:text-[2rem] font__poppins font-extrabold !leading-[1.6] mb-[1.3rem] uppercase tracking-[0.6rem]">
+          <h1 className="text-white text-[1.3rem] md:text-[2rem] font__poppins font-extrabold !leading-[1.6] mb-[1.3rem] uppercase tracking-[0.6rem]">
             A SOCIAL PLATFORM FOR ENVIRONMENTAL ACTIVISTS
           </h1>
 

@@ -2,10 +2,10 @@ import React from "react";
 
 export const Section3 = () => {
   return (
-    <div className="w-screen min-h-screen">
-      <div className="w-screen min-h-screen container mx-auto flex items-center justify-around">
+    <div className="w-screen min-h-screen p-[2rem]">
+      <div className="w-screen min-h-screen container mx-auto flex items-center lg:justify-around">
         {/* content */}
-        <div className="flex flex-col md:w-[30rem]">
+        <div className="flex flex-col w-[90%] md:w-[30rem]">
           <h3 className="text-[1.2rem] font-medium uppercase mb-1 text-accent">
             Reward Points
           </h3>
@@ -21,7 +21,7 @@ export const Section3 = () => {
 
         {/* vector */}
         <div className="hidden lg:block relative">
-          <img src="/Wallet.png" alt="" className="pr-[5rem]" />
+          <img src="/Wallet.png" alt="" className="pr-[2rem]" />
         </div>
       </div>
     </div>
