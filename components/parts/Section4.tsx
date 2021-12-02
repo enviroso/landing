@@ -8,7 +8,7 @@ import { Tasks } from "../icons/Tasks";
 
 export const Section4 = () => {
   return (
-    <div className="w-screen min-h-screen p-[2rem] flex flex-col justify-center">
+    <div className="w-screen p-[2rem] flex flex-col justify-center pb-[10rem]">
       {/* header */}
       <div className="flex flex-col items-center justify-center mt-[4rem]">
         <h3 className="text-[1.2rem] font-medium uppercase mb-1 text-orange">
@@ -54,7 +54,7 @@ export const Section4 = () => {
       </div>
 
       {/* footer */}
-      <h3 className="font__poppins font-bold text-lg mx-auto mt-10">
+      <h3 className="font__poppins font-bold text-lg mx-auto mt-[5rem]">
         And lots more...
       </h3>
     </div>

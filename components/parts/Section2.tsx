@@ -3,8 +3,8 @@ import { CleanupMissionsVector } from "../vectors/CleanupMissionsVector";
 
 export const Section2 = () => {
   return (
-    <div className="w-screen min-h-screen p-[2rem]">
-      <div className="w-screen min-h-screen container mx-auto flex items-center lg:justify-around">
+    <div className="w-screen px-[2rem] py-[10rem]">
+      <div className="w-screen container mx-auto flex items-center lg:justify-around">
         {/* vector */}
         <div className="hidden lg:block relative">
           <CleanupMissionsVector className="h-[200rem] w-[200rem]" />
