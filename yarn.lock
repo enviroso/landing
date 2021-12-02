@@ -1338,6 +1338,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"enviroso@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "enviroso@workspace:."
+  dependencies:
+    "@types/node": ^16.11.6
+    "@types/react": ^17.0.33
+    autoprefixer: ^10.3.7
+    next: ^12.0.0
+    postcss: ^8.3.11
+    react: 17.0.2
+    react-dom: 17.0.2
+    tailwindcss: ^2.2.17
+    typescript: ^4.4.4
+  languageName: unknown
+  linkType: soft
+
 "err-code@npm:^2.0.2":
   version: 2.0.3
   resolution: "err-code@npm:2.0.3"
@@ -2616,22 +2632,6 @@ __metadata:
   checksum: ad8a60c46f79fa6349a722c4f2bd33f628747cff2a65e3bf8765f1a658df968cb8f0bdbeaada8e60a1e0098af763ae0b047714cdf46fc0a31a2f99cabe1bbe61
   languageName: node
   linkType: hard
-
-"nextwind@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "nextwind@workspace:."
-  dependencies:
-    "@types/node": ^16.11.6
-    "@types/react": ^17.0.33
-    autoprefixer: ^10.3.7
-    next: ^12.0.0
-    postcss: ^8.3.11
-    react: 17.0.2
-    react-dom: 17.0.2
-    tailwindcss: ^2.2.17
-    typescript: ^4.4.4
-  languageName: unknown
-  linkType: soft
 
 "node-emoji@npm:^1.11.0":
   version: 1.11.0
