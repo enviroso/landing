@@ -1,9 +1,7 @@
 import React from "react";
 import { Github } from "../icons/Github";
 import { Instagram } from "../icons/Instagram";
-import { Scroll } from "../icons/Scroll";
 import { Button } from "../ui/Button";
-import { CurvedText } from "../ui/CurvedText";
 import { Logo } from "../ui/Logo";
 
 export const Section1 = () => {
@@ -14,7 +12,7 @@ export const Section1 = () => {
 
         <div className="w-full lg:w-[50rem]">
           {/* Heading */}
-          <h1 className="text-white md:text-[2rem] font__poppins font-extrabold !leading-[1.6] mb-[1.3rem] uppercase tracking-[0.6rem]">
+          <h1 className="text-white text-[1rem] md:text-[2rem] font__poppins font-extrabold !leading-[1.6] mb-[1.3rem] uppercase tracking-[0.6rem]">
             A SOCIAL PLATFORM FOR ENVIRONMENTAL ACTIVISTS
           </h1>
 
@@ -32,7 +30,7 @@ export const Section1 = () => {
             href="https://example.com"
             size="!h-[3rem] !w-[10rem]"
           >
-            <span className="text-sm">Get Early Access</span>
+            <span className="text-sm font_poppins">Get Early Access</span>
           </Button>
         </div>
 
