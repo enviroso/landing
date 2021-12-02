@@ -27,7 +27,7 @@ export const Section1 = () => {
             bg="accent"
             fg="light"
             curvature="max"
-            href="https://example.com"
+            href="https://4f8svksx7q4.typeform.com/to/puaAl8YG"
             size="!h-[3rem] !w-[10rem]"
           >
             <span className="text-sm font_poppins">Get Early Access</span>
